@@ -1,0 +1,210 @@
+BasicInfo:
+  FirstName: Thomas
+  LastName: Wimmer
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: thomas.wimmer@proton.me
+    - Icon: fas fa-map-marker-alt
+      Info: Linz | Austria
+    - Icon: fab fa-linkedin
+      Info: <a class="contact__link" href="https://www.linkedin.com/in/thowimmer/" target="_blank">linkedin.com/in/thowimmer</a>
+    - Icon: fab fa-twitter
+      Info: <a class="contact__link" href="https://twitter.com/thowimmer" target="_blank">twitter.com/thowimmer</a>
+    - Icon: fab fa-github
+      Info: <a class="contact__link" href="https://github.com/thowimmer" target="_blank">github.com/thowimmer</a>
+
+Profile: I'm a software simplicity nerd who is passionate about software design, distributed systems, security & privacy. I consider myself a technology generalist rather than a specialist because, in my opinion, every technology is just another tool for a modern software engineer. I'm a team player, listener & communicator willing to take on responsibility. I have a strong background in the payment industry, where I collaborated with banks & card issuers in Europe to bring innovative mobile payment/wallet solutions into your pocket.
+
+Experience:
+  - Employer: Netcetera
+    Place: Linz, AT
+    Positions:
+      - Title: Software Architect
+        Date: Apr 2020 - Present
+        Details:
+          - Design & development of a modular framework for white-labeled mobile wallet apps
+          - Collaborate with product management & UX architect on the design of new features
+          - Collaborate with multiple development teams on software design & architecture aspects
+          - Support the Presales team with offers, feasibility analysis & effort estimations
+          - Close exchange with clients (mainly banks & card issuers in Europe)
+          - Management of technical debt & improvements together with lead developers
+          - Consult development teams in the software quality & testing area
+          - Support migration from on-prem operations towards a cloud-native setup
+          - Management member of a value stream within the Digital Banking division
+          - "Member of the 'Architects Office': Consulting & strategy body which supports CTO"
+          - Execute code reviews with a focus on sofware design & security
+          - Collaborate with InfoSec team to improve the security & privacy of our solutions
+        Badges: ['Software Architecture', 'Requirements Engineering', 'Agile', 'Kotlin', 'Java', 'Swift', 'Spring Boot', 'Android', 'iOS', 'Cloud-Native', 'DevOps', 'Security']
+      - Title: Senior Software Developer
+        Date: Nov 2017 - Apr 2020
+        Details:
+          - Development of web services to manage tokenized cards for mobile contactless payments
+          - Integration of Mastercard Digital Enablement Service (MDES) & Visa Token Service (VTS)
+          - Design & development of unified security protocols to facilitate tokenization use cases
+          - Integration of hardware security modules & setup of key management procedures
+          - Integration of device attestation services for further application hardening
+          - Production setup in a PCI DSS compliant environment
+          - "Support onboarding of card issuers (incl. key management, certification process)"
+          - "Maintenance: Continous improvements, support, regulatory updates, PCI DSS audits"
+        Badges: ['Tokenization', 'Security', 'PCI DSS', 'MDES', 'VTS', 'Payment', 'Java', 'Spring Boot', 'Axon Framework', 'Domain Driven Design', 'CQRS', 'Event Sourcing', 'DevOps']
+      - Title: Software Developer
+        Date: Dec 2016 - Nov 2017
+        Details:
+          - Development & design of a mobile payment SDK for Android devices
+          - Implementation of EMV payment specification for contactless Mastercard & Visa payments
+          - Unified integration of scheme tokenization services
+          - Hardening of Android apps
+          - Penetration testing of Android apps
+          - Integration of Whitebox cryptography solutions
+        Badges: ['Payment', 'Android', 'EMV', 'MDES', 'VTS', 'Java', 'Cryptography', 'Hardening', 'Penetration Testing']
+  
+  - Employer: University of Applied Sciences Upper Austria
+    Place: Hagenberg, AT
+    Positions:
+      - Title: Lecturer
+        Date: Dec 2022 - Feb 2023
+        Details:
+          - UML & Testing course in the Mobile Computing Master programme
+          - Model Driven Development & UML
+          - Domain-Specific Languages & ANTLR4
+          - Software Quality & Testing
+          - Testing in the Software Development Lifecycle
+          - Unit Testing
+          - Test-driven Development
+          - Blackbox & Whitebox Testing
+          - Test Automation
+          - Static Testing
+        Badges: ['Lecturing', 'Software modeling', 'DSLs', 'Testing', 'Software quality', 'TDD', 'Test automation']
+
+  - Employer: My Data Filter
+    Place: Linz, AT
+    Positions:
+      - Title: Software Architect & Developer
+        Date: Mar 2022 - Dec 2022
+        Details:
+          - Design & Implementation of a prototype for a platform to manage personal & sensitive data
+          - Multi-tenant setup for authenticating digital identities
+          - Access control & access request mechanisms between organizations & individuals
+          - Design approach on how to apply the zero-trust security model in the overall architecture
+          - "Setup of entire infrastructure: CI-CD into Google or Digital Ocean cloud"
+        Badges: ['Privacy', 'Security', 'Software Architecture', 'Cloud-Native', 'Spring Boot', 'Kotlin']
+      
+  - Employer: Nexperts
+    Place: Hagenberg, AT
+    Positions:
+      - Title: Mobile Developer
+        Date: Oct 2013 - Dec 2016
+        Details:
+          - Development of Android & iOS apps in the area of mobile payments/wallets
+          - Implementation of proxy generator for a proprietary web service protocol
+          - Part-time during studying at university
+        Badges: ['Android', 'iOS', 'Payment', 'Code generation']
+
+  - Employer: Porsche Informatik
+    Place: Salzburg, AT
+    Positions:
+      - Title: Intern
+        Date: Jul 2012/13 - Sep 2012/13
+        Details:
+          - Development of Java web applications for car retail companies of the VW group
+          - Development of automated system tests for web components
+        Badges: ['Apache Tapestry', 'Spring', 'Java', 'Selenium']
+
+Education:
+  - Course: Master of Science - Mobile Computing
+    Place: Hagenberg, AT
+    Date: Oct 2015 - Sep 2017 | passed with highest distinction
+    Details: Distributed Systems, Cloud-Computing, Software Architecture
+
+  - Course: Bachelor of Science - Mobile Computing
+    Place: Hagenberg, AT
+    Date: Mar 2013 - Jul 2015 | passed with highest distinction
+    Details: Distributed Systems, Cloud-Computing, Information Security, Web & App Development
+
+  - Course: Higher Technical College - Electronics & Informatics
+    Place: Braunau am Inn, AT
+    Date: Sep 2007 - Jul 2012
+    Details: Electronics, Software Development, C/C++, Java, Java ME, C#, Android
+
+
+Skills:
+  - Family: Programming Languages
+    Items:
+      - Java
+      - Kotlin
+      - Javascript / Typescript
+      - Swift
+      - Objective-C
+      - C/C++
+  - Family: Mobile Technologies
+    Items:
+      - Android
+      - iOS     
+  - Family: Web Technologies
+    Items:
+      - Spring MVC (Spring/SpringBoot/...)
+      - Node.js
+      - HTML
+      - CSS
+      - Vue.js
+      - Angular
+      - React.js
+  - Family: CI/CD & Version Control
+    Items:
+      - Git
+      - Bitbucket
+      - Jenkins
+      - Gitlab
+      - GitHub
+      - CircleCI
+      - SVN
+  - Family: DevOps
+    Items:
+      - Docker
+      - Kubernetes
+      - Helm
+      - Google Kubernetes Engine
+      - Digital Ocean Kubernetes
+      - ELK Stack
+      - Prometheus
+      - Grafana
+  - Family: Databases
+    Items:
+      - ArangoDB
+      - MongoDB
+      - PostgreSQL
+      - MSSQL
+      - Redis
+      - Minio Object Storage
+  - Family: Messaging Technologies
+    Items:
+      - RabbitMQ
+      - AMQP
+      - MQTT
+      - Websockets      
+  - Family: Operating Systems
+    Items:
+      - Mac OSX
+      - Linux
+      - Windows
+      - Android
+      - iOS
+  - Family: Hardware & iOT
+    Items:
+      - Home Automation with Home Assitant
+      - Basics in micro-contoller programming with C
+      - Basic in electrical and electronic engineering
+Languages:
+  - Name: German
+    Level: Native
+  - Name: English
+    Level: Fluent
+
+Diplomas:
+  - <a class="contact__link" href="https://www.certible.com/de/verify/6daf20dfe778661f087a3d9d10bc3439/" target="_blank">iSAQB CPSA-F (2022)</a>
+
+Interests:
+  - Freeletics / Gym
+  - Standard & Latin Dance
+  - Tennis

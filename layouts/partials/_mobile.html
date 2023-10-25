@@ -1,0 +1,16 @@
+<div class="mobile-content">
+    <h1 class="mainHeading">{{ .BasicInfo.FirstName }} <span>{{ .BasicInfo.LastName }}</span></h1>
+    <div class="columns is-mobile">
+        <div class="column is-6">{{ partial "_mobile-avatar.html" . }}</div>
+        <div class="column pt-6 pl-2">{{ partial "_contacts.html" . }}</div>
+    </div>
+    {{ partial "_profile.html" . }}
+    {{ partial "_mobile-experience.html" . }}
+    {{ partial "_education.html" . }}
+    {{ partial "_references.html" . }}
+    {{ partial "_mobile-skills.html" . }}
+    {{ partial "_mobile-languages.html" . }}
+    {{ partial "_mobile-diplomas.html" . }}
+    {{ partial "_mobile-interests.html" . }}
+    </div>
+</div>

@@ -1,0 +1,16 @@
+{{ $data := or (index .Site.Data .Site.Language.Lang).content .Site.Data.content }}
+{{ .Scratch.Set "data" $data }}
+<!DOCTYPE html>
+<html lang="en">
+    {{ partial "head.html" . }}
+    <body>
+        <!--Switch to Desktop Layout-->
+        <div class="is-hidden-touch">
+            {{ partial "_desktop.html" $data }}
+        </div>
+        <!--Switch to Mobile Layout-->
+        <div class="is-hidden-desktop no-print">
+            {{ partial "_mobile.html" $data }}
+        </div>
+    </body>
+</html>

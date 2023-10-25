@@ -1,0 +1,12 @@
+<div class="section">
+    <div class="section__heading">
+        <h2 class="section__title">{{ i18n "interests" }}</h2>
+    </div>
+    <div class="section__content">
+        <ul class="list_none">
+            {{ range .Interests }}
+            <li>{{ . | safeHTML }}</li>
+            {{ end }}
+        </ul>
+    </div>
+</div>

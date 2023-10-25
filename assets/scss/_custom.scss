@@ -1,0 +1,77 @@
+/* Import Bulma modules for layouting*/
+@import "bulma-scss/helpers/visibility";
+@import "bulma-scss/utilities/all";
+@import "bulma-scss/elements/image";
+@import "bulma-scss/grid/columns";
+@import "bulma-scss/helpers/spacing";
+
+.mobile {
+  padding: 1rem 1rem;
+}
+
+.column {
+  display: grid;
+  align-items: center;
+}
+
+.list_none {
+  list-style: none
+}
+
+/* Remove reference to almedia-cv theme */
+.content__left::after {
+  all: initial;
+  * {
+    all: unset;
+  }
+}
+
+.mobile-content {
+  background-color: $color-light;
+  padding: 1rem 2rem;
+}
+
+.contact__item>span {
+  padding-left: 0.3rem;
+}
+
+.image {
+  max-width: 320px;
+}
+
+.education__item {
+  padding-bottom: 1rem;
+}
+
+div.column {
+  padding: 0;
+}
+
+.experience {
+
+  &__item {
+      &::before {
+          background: none;
+      }
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.sideSection {
+  margin-bottom: 2rem;
+
+  &__title {
+      padding-top: 0.5rem;
+  }
+}
