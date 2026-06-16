@@ -54,6 +54,25 @@ div.column {
           background: none;
       }
   }
+
+  /* Hanging indent: wrapped/second lines align under the first line's text
+     instead of starting at the bullet marker. */
+  &__bullet {
+      list-style-position: outside;
+      margin-left: 2rem;
+  }
+}
+
+/* Make Skill family headers stand out from their items. */
+.skills__group > span {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.8rem;
+    color: $color-icon-background;
+
+    &::after {
+        content: "";
+    }
 }
 
 .full-width {
