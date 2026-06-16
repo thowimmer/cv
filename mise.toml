@@ -1,0 +1,13 @@
+# Hugo must be the EXTENDED build (theme compiles SCSS via `toCSS`/libsass).
+# On macOS the extended release ships only as a .pkg, which mise's download
+# backends can't pick correctly, so install it via Homebrew instead:
+#   brew install hugo
+[tools]
+
+[tasks.serve]
+description = "Run Hugo dev server with live reload (http://localhost:1313)"
+run = "hugo serve"
+
+[tasks.build]
+description = "Build the static site into ./public"
+run = "hugo --minify"
